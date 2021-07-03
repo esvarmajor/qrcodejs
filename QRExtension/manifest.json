@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+  
+    "name": "QR Code Creator",
+    "description": "This extension will convert the page's link or a user inputted link into a qr code that can be copy and pasted.",
+    "version": "1.0",
+  
+    "browser_action": {
+     "default_icon": "icon.png",
+     "default_popup": "popup.html"
+    },
+    "permissions": [
+     "tabs"
+     ]
+  }
